@@ -13,3 +13,7 @@ e의 경우에는 <img src="https://latex.codecogs.com/svg.image?e^x" title="htt
 이므로, <img src="https://latex.codecogs.com/svg.image?x=1" title="https://latex.codecogs.com/svg.image?x=1" /> 대입시 <img src="https://latex.codecogs.com/svg.image?\frac{\pi}{4}" title="https://latex.codecogs.com/svg.image?\frac{\pi}{4}" /> 가 나옴을 알 수 있다.
 
 <img src="https://latex.codecogs.com/svg.image?\arcsin&space;x&space;=&space;\sum^{\infty}_{n=0}&space;\frac{(2n)!}{4^n&space;(n!)^2&space;(2n&plus;1)}&space;x^{2n&plus;1}" title="https://latex.codecogs.com/svg.image?\arcsin x = \sum^{\infty}_{n=0} \frac{(2n)!}{4^n (n!)^2 (2n+1)} x^{2n+1}" />
+
+---
+
+그러나 순수하게 이 공식만을 이용하면 수렴 속도가 굉장히 느리다. 따라서 역탄젠트 함수의 공식을 응용한 "마친 공식"을 따라 계산한다.
