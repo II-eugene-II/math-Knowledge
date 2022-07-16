@@ -18,3 +18,29 @@ $$ F_{n+2} = F_{n+1} + F_n $$
 
 행렬의 거듭제곱으로도 피보나치수를 표현할 수 있습니다.
 
+$$ \left[
+\begin{matrix}
+    F_{n+1} & F_{n} \\
+    F_{n} & F_{n-1} \\
+\end{matrix}
+\right] = \left[
+\begin{matrix}
+    1 & 1 \\
+    1 & 0 \\
+\end{matrix}
+\right]^n $$
+
+---
+
+## 기타 여러가지 특징들
+
+---
+
+오직 피보나치 수만 연구하는 그런 특별한 학술지도 있습니다. https://www.fq.math.ca/
+
+무려 1963년부터 나온 나름 꽤나 전통있는 학술지이며, 63년편부터 16년호까지 무료로 볼 수 있습니다. https://www.fq.math.ca/list-of-issues.html
+
+---
+
+
+
