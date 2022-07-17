@@ -81,7 +81,7 @@ $$ F_{n+1} F_{n-1} - F_{n}^{2} = \det \left[
 
 2번 -
 
-$F_{n+m} F_{n-m} - {F_{n}}^2 = (-F_{m})^n$
+${F_n}^2 - F_{n+r}F_{n-r} = (-1)^{n-r}{F_n}^2$
 
 (1번의 일반화)
 
@@ -156,3 +156,66 @@ $\sum\limits_{k=0}^n F_{3k} = \frac{F_{3n+2} - 1}{2}$
 [출처1](https://en.wikipedia.org/wiki/Fibonacci_number#Identification)
 [출처2](https://m.blog.naver.com/kyh941031/221919420503)
 
+---
+
+12번 -
+
+$F_{2n+k} = F_k {F_{n+1}}^2 + 2 F_{k-1} F_{n+1} F_{n} + F_{k-2} {F_{n}}^2$
+
+---
+
+13번 -
+
+$F_{3n} = 2{F_{n}}^3 + 3F_n F_{n+1} F_{n-1} = 5{F_{n}}^3 + 3 (-1)^n F_{n}$
+
+---
+
+14번 -
+
+$F_{3n+1} = {F_{n+1}}^3 + 3 F_{n+1}{F_{n}}^2 - {F_{n}}^3$
+
+---
+
+15번 -
+
+$F_{3n+2} = F_{n+1}^3 + 3 F_{n+1}^2F_n + F_n^3$
+
+---
+
+16번 -
+
+$F_{4n} = 4F_nF_{n+1}(F_{n+1}^2 + 2F_n^2) - 3F_n^2(F_n^2 + 2F_{n+1}^2)$
+
+---
+
+17번 -
+
+$\sum\limits_{n=0}^\infty \frac{F_n}{10^{n}} = \frac{10}{89}$
+
+---
+
+18번 -
+
+$\sum\limits_{n=0}^\infty \frac{F_n}{k^{n}} = \frac{k}{k^{2}-k-1}$
+
+(17번의 일반화)
+
+---
+
+19번 -
+
+$\sum\limits_{k=0}^\infty \frac{1}{1+F_{2k+1}} = \frac{\sqrt{5}}{2}$
+
+---
+
+20번 -
+
+$\sum\limits_{k=1}^\infty \frac{(-1)^{k+1}}{\sum\limits_{j=1}^k {F_{j}}^2} = \frac{\sqrt{ 5}-1}{2}$
+
+---
+
+21번 -
+
+$\sum_{k=n}^{n+9} F_{k} = 11 F_{n+6}$
+
+-> 연속된 10개의 항은 11의 배수이다.
