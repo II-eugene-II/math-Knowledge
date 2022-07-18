@@ -196,7 +196,7 @@ $\sum\limits_{n=0}^\infty \frac{F_n}{10^{n}} = \frac{10}{89}$
 
 18번 -
 
-$\sum\limits_{n=0}^\infty \frac{F_n}{k^{n}} = \frac{k}{k^{2}-k-1}$
+$\sum\limits_{n=0}^\infty \frac{F_n}{x^{n}} = \frac{x}{x^{2}-x-1}$
 
 (17번의 일반화)
 
@@ -216,6 +216,13 @@ $\sum\limits_{k=1}^\infty \frac{(-1)^{k+1}}{\sum\limits_{j=1}^k {F_{j}}^2} = \fr
 
 21번 -
 
-$\sum_{k=n}^{n+9} F_{k} = 11 F_{n+6}$
+$\sum\limits_{k=n}^{n+9} F_{k} = 11 F_{n+6}$
 
 -> 연속된 10개의 항은 11의 배수이다.
+
+---
+
+22번 -
+
+
+$\sum\limits_{n=0}^\infty {{F_n}^2}{k^{n}} = \frac{x(1-x)}{1-2x-2x^{2}+x^3}$
