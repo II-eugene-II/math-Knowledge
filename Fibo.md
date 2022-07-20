@@ -226,3 +226,21 @@ $\sum\limits_{k=n}^{n+9} F_{k} = 11 F_{n+6}$
 
 
 $\sum\limits_{n=0}^\infty {{F_n}^2}{k^{n}} = \frac{x(1-x)}{1-2x-2x^{2}+x^3}$
+
+---
+
+23번 -
+
+$F_{k+2} p^{k+1} + F_{k+1} p^{k+2} \equiv 1 \pmod{p^2+p-1}$
+
+<details markdown="1">
+<summary>증명 접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
+
+$$ F_{k+2} p^{k+1} + F_{k+1} p^{k+2} = \left( F_{k+1} + F_{k} \right)  p^{k+1} + \left( F_{k} + F_{k-1} \right) p^{k+2} = p \left( F_{k+1} p^{k} + F_{k} p^{k+1} \right) + p^2 \left( F_{k} p^{k+1} + F_{k-1} p^{k} \right) $$
+
+$$ p \left( F_{k+1} p^{k} + F_{k} p^{k+1} \right) + p^2 \left( F_{k} p^{k+1} + F_{k-1} p^{k} \right) \equiv p^2 + p \equiv 1 \pmod{p^2+p-1} $$
+
+</details>
